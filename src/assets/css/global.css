@@ -10,15 +10,29 @@
     display: none;
   }
 
+.main {
+    height: 100vh;
+}
+
 body {
     display: flex;
-    height: 100vh;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    text-align: center; 
+    height: 100vh;
+}
+
+.main-calculator {
+    display: flex;
     color: #F8F8F8;
 }
 
 .title {
     color: #002F40;
+}
+
+.footer {
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }

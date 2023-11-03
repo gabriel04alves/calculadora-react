@@ -3,13 +3,18 @@ import ReactDOM from 'react-dom/client';
 import Calculator from './main/Calculator';
 import './assets/css/global.css'
 import reportWebVitals from './reportWebVitals';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div>
-      <h1 className='title'>Calculadora</h1>
-    <Calculator />
+    <div className='main'>
+      <div>
+        <h1 className='title'>Calculadora</h1>
+      <div className='main-calculator'></div>
+        <Calculator />
+      </div>
+      <Footer />
     </div>
   </React.StrictMode>
 );
