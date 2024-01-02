@@ -2,8 +2,11 @@
     height: 350px;
     width: 255px;
     border-radius: 5px;
-    /* overflow: hidden; */
-    background-color: red;
+    overflow: hidden;
     align-self: center;
+
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 7.5vh 7.5vh 7.5vh 7.5vh 7.5vh
 }
 
