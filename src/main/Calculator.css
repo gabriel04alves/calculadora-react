@@ -1,12 +1,12 @@
 .calculator {
-    height: 350px;
-    width: 255px;
+    height: 45vh;
+    width: 30vh;
     border-radius: 5px;
     overflow: hidden;
     align-self: center;
 
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows: 7.5vh 7.5vh 7.5vh 7.5vh 7.5vh
+    grid-template-rows: 1fr 7.5vh 7.5vh 7.5vh 7.5vh 7.5vh
 }
 
