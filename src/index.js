@@ -4,17 +4,17 @@ import Calculator from './main/Calculator';
 import './assets/css/global.css'
 import reportWebVitals from './reportWebVitals';
 import Footer from './components/Footer';
+import Header from './components/Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div className='main'>
-      <div>
-        <h1 className='title'>Calculadora</h1>
-      <div className='main-calculator'></div>
+      <Header/>
+      <div class='content'>
         <Calculator />
-      </div>
-      <Footer />
+      </div>  
+        <Footer />
     </div>
   </React.StrictMode>
 );

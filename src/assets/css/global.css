@@ -36,3 +36,10 @@ body {
     position: fixed;
     width: 100%;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75%;
+}
