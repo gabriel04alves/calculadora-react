@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# Calculadora em React
+
+Bem-vindo à minha calculadora desenvolvida em React! Este projeto, parte do curso de JavaScript Completo da Cod3r, destaca-se pelo uso do React para criar uma interface dinâmica e responsiva. Adicionando um toque de elegância, integrei a biblioteca AOS para animações suaves ao rolar, e a estilização foi aprimorada com Google Fonts.
+
+O objetivo deste projeto é aprimorar minhas habilidades em React e JavaScript, proporcionando uma experiência interativa e funcional. Sinta-se à vontade para explorar o código. Espero que esta calculadora inspire seus próprios projetos!
+
+
+#### Deploy: https://thecalc.surge.sh/
+#### Curso: https://github.com/cod3rcursos/web-moderno/tree/master/exercicios-web/react/calculadora
+
+##
+#
+# Docs:
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
