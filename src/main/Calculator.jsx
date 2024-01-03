@@ -77,10 +77,12 @@ export default class Calculator extends Component {
         }
     }
 
+    
+
     render() {
 
         return (
-            <div className="calculator">
+            <div className="calculator" data-aos="zoom-in" data-aos-duration="2000">
                 <Display value={this.state.displayValue}></Display>
                 <Button label="AC" click={this.clearMemory} triple />
                 <Button label="/" click={this.setOperation} operation/>

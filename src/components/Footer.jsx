@@ -8,7 +8,7 @@ export default class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                <p className="text-footer">
+                <p className="text-footer" >
                     <img className="logo" src={github} alt="github" />
                     {/* <img className="logo" src="../assets/images/github.svg" alt="github" /> */}
                     <a className="text-footer" href="https://github.com/gabriel04alves">

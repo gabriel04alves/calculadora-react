@@ -1,7 +1,7 @@
 .header {
     display: flex;
     gap: 1%;
-    border-bottom: 0.25em solid;
+    border-bottom: 0.23em solid;
     border-image: linear-gradient(60deg, #ee5428, #fca425) 1 1;
     color: #F4F4F4; 
     height: 7.5vh;
@@ -10,5 +10,6 @@
     padding: 1%;
     align-items: center;
     justify-content: center;
-    font-size: 2.1vh;
+    font-size: 2.2vh;
+    font-weight: 300;
 }

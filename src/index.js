@@ -5,6 +5,10 @@ import './assets/css/global.css'
 import reportWebVitals from './reportWebVitals';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Importe os estilos da AOS
+
+AOS.init(); 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
