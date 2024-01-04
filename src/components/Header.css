@@ -10,6 +10,10 @@
     padding: 1%;
     align-items: center;
     justify-content: center;
-    font-size: 2.2vh;
-    font-weight: 300;
+    font-size: 2.1vh;
+    font-weight: 400;
+}
+
+.calc-logo {
+    height: 4.4vh;
 }
